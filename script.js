@@ -20,8 +20,7 @@ $(function()
 
 window.onload = function() 
 {
-  document.getElementById('#username').value = localStorage.setItem('xusername');
-  document.getElementById('#avatar').value = localStorage.setItem('xavatar')  
-
-	
+	alert(localStorage.getItem('xusername'));
+	document.getElementById('#username').value = localStorage.getItem('xusername');
+	document.getElementById('#avatar').value = localStorage.getItem('xavatar');	
 };

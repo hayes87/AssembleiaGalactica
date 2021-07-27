@@ -2,7 +2,7 @@ $(function()
 {
 	$('#btn').click(function()
   {
-		var link = "https://discord.com/api/webhooks/869308508573663305/OegnFO27k-_BxlmoWswR78xnUkwdaZKVLqz-1m5m-xZipWjuD3NTaOSN_ami-g5-HrZj";
+		var link = "https://discord.com/api/webhooks/869309946825678950/KDSeyZ3bh0sxDUxKJmPIjcMJewIwcTosgZtucQH14UDJEdGmAvk-QX8OzAq7R7SdWar5";
 		var username = $('#username').val();
 		localStorage.setItem('xUsername', username);
 		var content = $('#content').val();

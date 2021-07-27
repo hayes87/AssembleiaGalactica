@@ -19,8 +19,7 @@ $(function()
 });
 
 window.onload = function() 
-{
-	alert(localStorage.getItem('xUsername'));
-	document.getElementById('#username').value = localStorage.getItem('xUsername');
-	document.getElementById('#avatar').value = localStorage.getItem('xAvatar');	
+{	
+	document.getElementById('username').value = localStorage.getItem('xUsername');
+	document.getElementById('avatar').value = localStorage.getItem('xAvatar');	
 };
